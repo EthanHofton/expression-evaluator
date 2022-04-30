@@ -17,7 +17,7 @@ dirs:
 libs:
 
 
-run: all
+run: clean all
 	$(BIN)/$(PROGRAM)
 
 game: $(OBJ)
